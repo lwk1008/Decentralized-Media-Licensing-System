@@ -1,7 +1,7 @@
-//0x1c747117eFB836f0E995BE7642Ab96a2090E1e66
 pragma solidity ^0.8.17;
 
 contract Mapping {
+    //0x90e3Cf8B3077E5d2C83c0F7764836D46cca7376c
     // Mapping from address to uint
     mapping(string => string) public myMap;
 
