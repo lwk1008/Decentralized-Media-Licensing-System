@@ -105,12 +105,10 @@ import { default as WrapContent } from '@/components/base-layouts/wrap-content/i
 import { default as GlobalFooter } from '@/components/base-layouts/global-footer/index.vue';
 import { default as SiderMenu } from '@/components/base-layouts/sider-menu/index.vue';
 import { default as HeaderView } from '@/components/base-layouts/header/index.vue';
-import { default as SelectLang } from '@/components/select-lang/index.vue';
 import { default as AvatarDropdown } from '@/components/avatar-dropdown.vue';
 import { default as SettingDrawer } from '@/components/setting-drawer/index.vue';
 import { injectMenuState } from './use-menu-state';
 import { useStore } from 'vuex';
-import { default as NoticeIcon } from '@/components/notice-icon/index.vue';
 
 export default defineComponent({
   name: 'LeftMenuLayout',
@@ -190,10 +188,8 @@ export default defineComponent({
     SiderMenu,
     GlobalFooter,
     HeaderView,
-    SelectLang,
     AvatarDropdown,
     SettingDrawer,
-    NoticeIcon,
   },
 });
 </script>
